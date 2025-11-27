@@ -36,20 +36,15 @@ const Memories = ({ isIOS }) => {
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
             Resolusi 24 Tahun: Upgrade Diri Biar Leni Tetap Bangga
           </h2>
-
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
-            <p>
-              💌 <strong>Buat Leni, pusat semestaku...</strong>
-            </p>
-
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
               1. <strong>Lebih sayang sama diri sendiri.</strong>
-              Soalnya kalau aku nggak sayang dulu sama diriku, nanti Leni
-              bisa-bisa rebutan sama diriku sendiri.
+              Soalnya kalo nggak disayang dulu, nanti Leni rebutan sama dirimu
+              sendiri.
             </motion.p>
 
             <motion.p
@@ -58,8 +53,7 @@ const Memories = ({ isIOS }) => {
               transition={{ duration: 1, delay: 1.2 }}
             >
               2. <strong>Ngejalanin hidup lebih tenang.</strong>
-              Biar hati adem, nggak gampang meledak kayak popcorn kalau ada
-              masalah.
+              Biar hati adem, nggak gampang meledak kayak popcorn.
             </motion.p>
 
             <motion.p
@@ -68,8 +62,7 @@ const Memories = ({ isIOS }) => {
               transition={{ duration: 1, delay: 1.8 }}
             >
               3. <strong>Stabil secara finansial.</strong>
-              Targetku: bisa transfer 5 juta/bulan ke Leni tanpa harus pingsan
-              dulu.
+              Target: bisa transfer 5 juta/bulan ke Leni tanpa pingsan.
             </motion.p>
 
             <motion.p
@@ -78,8 +71,8 @@ const Memories = ({ isIOS }) => {
               transition={{ duration: 1, delay: 2.4 }}
             >
               4. <strong>Menjaga pola hidup sehat.</strong>
-              Biar panjang umur—kan Leni maunya ngambek sama aku terus, bukan
-              ngambek sama orang lain.
+              Biar panjang umur—kan Leni maunya ngambek sama dirimu terus, bukan
+              sama orang lain.
             </motion.p>
 
             <motion.p
@@ -88,8 +81,8 @@ const Memories = ({ isIOS }) => {
               transition={{ duration: 1, delay: 3 }}
             >
               5. <strong>Menjadikan Leni tujuan utama.</strong>
-              Pokoknya kalau tiba-tiba aku belok haluan, semoga jodohnya orang
-              yang kalau difoto selalu blur.
+              Pokoknya kalau tiba-tiba belok haluan, semoga jodohnya orang yang
+              kalau difoto selalu blur.
             </motion.p>
           </div>
         </motion.div>
@@ -188,7 +181,7 @@ const Memories = ({ isIOS }) => {
             transition={{ delay: 2.2 }}
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
-            🌸 Bunga ini sebagai hadiah dari permintaan maafku, sayang... Tolong
+            🌸 Bunga ini sebagai hadiah dariku sayang... Tolong
             diterima ya 🥺❤️
           </motion.p>
         )}
